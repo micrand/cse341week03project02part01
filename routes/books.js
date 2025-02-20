@@ -3,10 +3,6 @@ const router = express.Router();
 
 const bookController = require('../controllers/bookController');
 
-//authentication
-const { isAuthenticated } = require('../middleware/authenticate');
-//
-
 //get
 router.get('/', bookController.getAll);
 

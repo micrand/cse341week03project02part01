@@ -1,11 +1,11 @@
 ### Get all books
-GET https://cse341-project02-wz9k.onrender.com/books
+GET https://cse341-project02-part1.onrender.com/books
 
 ### Get a book by id
-GET https://cse341-project02-wz9k.onrender.com/books/67b779b3a47167e4dcde77af
+GET https://cse341-project02-part1.onrender.com/books/67b779b3a47167e4dcde77af
 
 ### Create a book
-POST https://cse341-project02-wz9k.onrender.com/books
+POST https://cse341-project02-part1.onrender.com/books
 Content-Type: application/json
 
 {
@@ -17,7 +17,7 @@ Content-Type: application/json
 }
 
 ### Update book by id
-PUT https://cse341-project02-wz9k.onrender.com/books
+PUT https://cse341-project02-part1.onrender.com/books
 Content-Type: application/json
 
 {
@@ -29,15 +29,15 @@ Content-Type: application/json
 }
 
 ### Delete book by id
-DELETE https://cse341-project02-wz9k.onrender.com/books/67b77df3981d338eed405f31
+DELETE https://cse341-project02-part1.onrender.com/books/67b77df3981d338eed405f31
 
 //----------------------------------------
 
 ### Get all writers
-GET https://cse341-project02-wz9k.onrender.com/writers
+GET https://cse341-project02-part1.onrender.com/writers
 
 ### Create a writer
-POST https://cse341-project02-wz9k.onrender.com/writers
+POST https://cse341-project02-part1.onrender.com/writers
 Content-Type: application/json
 
 {

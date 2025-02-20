@@ -3,10 +3,6 @@ const router = express.Router();
 
 const writerController = require('../controllers/writerController');
 
-//authentication
-// const { isAuthenticated } = require('../middleware/authenticate');
-//
-
 router.get('/', writerController.getAllWriters);
 
 router.get('/:id', writerController.getSingleWriter);
