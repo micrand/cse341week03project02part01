@@ -1,0 +1,48 @@
+### Get all books
+GET https://cse341-project02-wz9k.onrender.com/books
+
+### Get a book by id
+GET https://cse341-project02-wz9k.onrender.com/books/67b779b3a47167e4dcde77af
+
+### Create a book
+POST https://cse341-project02-wz9k.onrender.com/books
+Content-Type: application/json
+
+{
+    "title":"The book title",
+    "author_id": "Besson",
+    "edition": "Amazon",
+    "pages": "143",
+    "genre": "Action" 
+}
+
+### Update book by id
+PUT https://cse341-project02-wz9k.onrender.com/books
+Content-Type: application/json
+
+{
+    "title":"The book",
+    "author_id": "Mad max",
+    "edition": "Amazone",
+    "pages": "143",
+    "genre": "Action" 
+}
+
+### Delete book by id
+DELETE https://cse341-project02-wz9k.onrender.com/books/67b77df3981d338eed405f31
+
+//----------------------------------------
+
+### Get all writers
+GET https://cse341-project02-wz9k.onrender.com/writers
+
+### Create a writer
+POST https://cse341-project02-wz9k.onrender.com/writers
+Content-Type: application/json
+
+{
+    "name": "Deco",
+    "birth": "1912",
+    "nationality": "American",
+    "genre": "Action"
+}
