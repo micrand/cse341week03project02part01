@@ -5,7 +5,7 @@
     "description": "Books Api - CSE341 Project 02",
     "version": "1.0.0"
   },
-  "host": "cse341-project02-wz9k.onrender.com",
+  "host": "cse341-project02-part1.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
